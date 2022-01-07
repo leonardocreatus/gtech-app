@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "gtech-app",
+    "slug": "gtech-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/logoC.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.guigaboy23.gtechapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.guigaboy23.gtechapp"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "description": ""
+  }
+}
